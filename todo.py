@@ -1,11 +1,11 @@
 from flask import Flask, jsonify
 
 
-app = Flask('TODO')
-tarefas = []
+app = Flask('todoapp')
+tarefas = [{'id': 1, 'titulo':'titulo', 'descricao':'descricao', 'estado':False}]
 
 
-@app.route('/task')
+@app.route('/tarefas')
 def listar():
-    return jsonify([])
+    return jsonify(tarefas)
 
