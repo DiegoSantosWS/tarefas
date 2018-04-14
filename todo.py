@@ -7,5 +7,5 @@ tarefas = []
 
 @app.route('/task')
 def listar():
-    return jsonify()
+    return jsonify([])
 
