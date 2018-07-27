@@ -1,0 +1,6 @@
+[
+  "test_todo.py::test_listar_tarefas_deve_retornar_status_200",
+  "test_todo.py::test_listar_tarefas_deve_ter_format_json",
+  "test_todo.py::test_lista_de_tarefas_vazia_deve_retornar_lista_vazia",
+  "test_todo.py::test_lista_de_tarefas_nao_vazia_retorna_conteudo"
+]
